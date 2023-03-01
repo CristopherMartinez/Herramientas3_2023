@@ -105,9 +105,9 @@ nremployed = st.number_input(columns[19], min_value=4936.6, max_value=5228.1)
 #Definimos funcion para que muestre mensaje al final si aplica o no al credito
 def verificarDatos(res):
     if res == "no":
-        st.subheader(':red[No aplicas al credito sigue intentando] :disappointed_relieved:')
+        st.subheader('No aplicas al credito sigue intentando :disappointed_relieved:')
     else:
-        st.subheader(':blue[Si aplicas al credito felicidades!!] :sunglasses:')
+        st.subheader('Si aplicas al credito felicidades!! :sunglasses:')
         st.balloons()
 
 data =  {
