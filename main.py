@@ -5,6 +5,7 @@ import ssl
 import streamlit as st
 import pandas as pd
 import json
+import pickle
 
 def allowSelfSignedHttps(allowed):
     if allowed and not os.environ.get('PYTHONHTTPSVERIFY', '') and getattr(ssl, '_create_unverified_context', None):
