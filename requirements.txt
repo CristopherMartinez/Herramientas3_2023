@@ -1,4 +1,4 @@
-
+streamlit
 azureml-train-automl-runtime==1.48.0.post2
 inference-schema
 azureml-interpret==1.48.0
